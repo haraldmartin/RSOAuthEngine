@@ -25,8 +25,9 @@
 
 #include <sys/time.h>
 #import <CommonCrypto/CommonHMAC.h>
-#import "NSData+Base64.h"
+#import "NSData+MKBase64.h"
 #import "NSString+MKNetworkKitAdditions.h"
+#import "MKNetworkEngine.h"
 #import "RSOAuthEngine.h"
 
 static const NSString *oauthVersion = @"1.0";
